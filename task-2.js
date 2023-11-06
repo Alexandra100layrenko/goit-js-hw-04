@@ -12,9 +12,7 @@ function calcAverageCalories(days) {
     return Math.round(totalCalories / days.length);
 }
 
-/* не розумію, що не так*/
 
-console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
 console.log(
     calcAverageCalories([
       { day: "monday", calories: 3010 },
